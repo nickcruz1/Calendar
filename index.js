@@ -32,3 +32,10 @@ function prevMonth() {
   var element = document.getElementById("july");
   let julyTitle = document.getElementById("monthTitleJuly").innerHTML = months[5];
 }
+
+// Switch Months (Next) 
+function nextMonth() {
+  var element = document.getElementById("july");
+  let julyTitle = document.getElementById("monthTitleJuly").innerHTML = months[7];
+}
+
