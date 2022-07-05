@@ -17,3 +17,12 @@ for(let i = 0; i < months.length; i++) {
 }
 
 console.log(big[0])
+
+// Grab Calendar Day
+function calendarDay() {
+  let days = document.querySelectorAll(".days")
+  for (let i = 0; i < days.length; i++) {
+  days[i].style.backgroundColor = "gray";
+}
+  
+}
