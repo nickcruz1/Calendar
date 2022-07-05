@@ -26,3 +26,9 @@ function calendarDay() {
 }
   
 }
+
+// Switch Months (Previous) 
+function prevMonth() {
+  var element = document.getElementById("july");
+  let julyTitle = document.getElementById("monthTitleJuly").innerHTML = months[5];
+}
