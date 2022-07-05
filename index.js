@@ -39,3 +39,15 @@ function nextMonth() {
   let julyTitle = document.getElementById("monthTitleJuly").innerHTML = months[7];
 }
 
+// Functions for Changing Months
+
+// Change to January
+function changetoJan() {
+ let sideMonth = document.getElementById("monthTitleJuly");
+  let month = document.getElementById("july");
+  
+  sideMonth.innerHTML = "January: 2022";
+  sideMonth.style.color = "red";
+  month.style.backgroundColor = "white";
+}
+
