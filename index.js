@@ -71,3 +71,13 @@ function changetoMar() {
   month.style.backgroundColor = "black";
 }
 
+// Change to April
+function changetoApr() {
+ let sideMonth = document.getElementById("monthTitleJuly");
+  let month = document.getElementById("july");
+  
+  sideMonth.innerHTML = "April: 2022";
+  sideMonth.style.color = "orange";
+  month.style.backgroundColor = "gray";
+}
+
