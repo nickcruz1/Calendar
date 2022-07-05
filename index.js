@@ -51,3 +51,23 @@ function changetoJan() {
   month.style.backgroundColor = "white";
 }
 
+// Change to February
+function changetoFeb() {
+ let sideMonth = document.getElementById("monthTitleJuly");
+  let month = document.getElementById("july");
+  
+  sideMonth.innerHTML = "February: 2022";
+  sideMonth.style.color = "blue";
+  month.style.backgroundColor = "lightgray";
+}
+
+// Change to March
+function changetoMar() {
+ let sideMonth = document.getElementById("monthTitleJuly");
+  let month = document.getElementById("july");
+  
+  sideMonth.innerHTML = "March: 2022";
+  sideMonth.style.color = "yellow";
+  month.style.backgroundColor = "black";
+}
+
