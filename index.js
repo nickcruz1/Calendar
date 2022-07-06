@@ -126,3 +126,14 @@ entry1.style.color = "white";
     entryMessage.value = "";
   }
 }
+
+function removeEntry() {
+  let removeEntryBtn = document.getElementById("removeEntryBtn");
+  let entry1 = document.getElementById("entry1");
+  
+  if(removeEntryBtn.click = true) {
+    entry1.innerHTML = "";
+  }
+  
+}
+
