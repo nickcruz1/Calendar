@@ -90,3 +90,11 @@ function addEntryModal() {
 }
 }
 
+function closeEntryModal() {
+  let addEntry = document.getElementById("addEntry");
+  let closeBtn = document.getElementById("closeEntryModalBtn");
+  
+  if(closeBtn.click = true) {
+    addEntry.style.display = "none";
+  }
+}
