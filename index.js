@@ -98,3 +98,31 @@ function closeEntryModal() {
     addEntry.style.display = "none";
   }
 }
+
+function addEntry() {
+  let addEntry = document.getElementById("addEntry");
+  let saveEntry = document.getElementById("saveEntry");
+  let entryMessage = document.getElementById("entryMessage");
+  let entry1 = document.getElementById("entry1");
+  
+  
+ // Create element:
+const entryItem = document.createElement("li");
+entryItem.innerText = entryMessage.value;
+
+// Append to body:
+entry1.appendChild(entryItem);
+entry1.style.color = "white";
+  
+  
+  if(saveEntry.click = true) {
+    if(entryMessage.value == "") {
+      alert("Entry is Empty")
+       entryMessage.style.border = "3px solid red";
+      return false;
+    }
+    entry1.innerHTML = entryMessage.value;
+    addEntry.style.display = "none";
+    entryMessage.value = "";
+  }
+}
