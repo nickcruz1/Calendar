@@ -99,6 +99,8 @@ function closeEntryModal() {
   }
 }
 
+
+// Add feature for continously adding to list of entries 
 function addEntry() {
   let addEntry = document.getElementById("addEntry");
   let saveEntry = document.getElementById("saveEntry");
