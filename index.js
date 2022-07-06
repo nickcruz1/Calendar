@@ -81,3 +81,12 @@ function changetoApr() {
   month.style.backgroundColor = "gray";
 }
 
+function addEntryModal() {
+  let addEntry = document.getElementById("addEntry");
+  let addEntryBtn = document.querySelectorAll(".addEntryBtn")
+  
+  for (let i = 0; i < addEntryBtn.length; i++) {
+  addEntry.style.display = "block";
+}
+}
+
